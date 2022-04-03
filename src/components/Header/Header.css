@@ -1,0 +1,24 @@
+.nav-parent{
+    background-color:coral;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.brand-name{
+    color:white;
+}
+
+.navigation a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.navigation a:hover{
+    color: aqua;
+}
