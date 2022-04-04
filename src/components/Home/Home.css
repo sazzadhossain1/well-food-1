@@ -1,42 +1,45 @@
-.home-component{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    
+.home-component {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
 }
 
-.home-component img{
-    height: 500px;
-    width: 750px;
-    margin-right: 100px;
-    border-radius: 3px;
-    
-    
+.home-component img {
+  height: 500px;
+  width: 750px;
+  margin-right: 100px;
+  border-radius: 3px;
 }
-.details-div{
-    margin-right: 100px;
-    margin-left: 100px;
-    
+.details-div {
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
-.delivery{
-    background-color: red;
-    border-radius: 15px;
-    height: 30px;
-    padding: 5px;
+.delivery {
+  background-color: red;
+  border-radius: 15px;
+  height: 30px;
+  padding: 5px;
+}
+.review-container{
+    margin-top: 200px;
 }
 
-
-.customer-reviews{
-    margin-top: 100px;
+.customer-reviews {
+  margin-top: 100px;
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  
 }
-.button{
-    margin: 300px;
-    background-color: coral;
-    padding: 10px;
-    border: none;
-    color: white;
-    border-radius: 10px;
-    width: 300px;
-    font-weight: 900;
+.button {
+  margin: 300px;
+  background-color: coral;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 300px;
+  font-weight: 900;
 }

@@ -51,7 +51,7 @@ const Dashboard = () => {
   ];
   return (
     <div className="main-container">
-      <h1>Thsi is dashboard</h1>
+      <h1>This is Dashboard</h1>
 
       <div className="parent-container">
       <div>

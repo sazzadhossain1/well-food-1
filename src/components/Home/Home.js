@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import img from "./image/12-124276_m.jpg";
 import "./Home.css";
+import SingleReview from "../SingleReview/SingleReview";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  const [users, setUsers] = useState([]);
+  useEffect(() => {
+    fetch("allproducts.json")
+      .then((res) => res.json())
+      .then((data) => setUsers(data));
+  }, []);
   return (
     <div>
       <div className="home-component">
@@ -25,11 +33,19 @@ const Home = () => {
         </div>
       </div>
 
-
-      <div className="customer-reviews">
-          <h1>Customer Reviews</h1>
+      <div className="review-container">
+        <h1>Customer Reviews</h1>
+        <div className="customer-reviews">
+          {users.slice(0, 3).map((user) => (
+            <SingleReview key={user.id} user={user}></SingleReview>
+          ))}
+        </div>
+        <div>
+          <Link to='/Reviews'><button className="button">See All Reviews</button></Link>
+          
+        </div>
+        
       </div>
-      <button className="button">See All Reviews</button>
     </div>
   );
 };

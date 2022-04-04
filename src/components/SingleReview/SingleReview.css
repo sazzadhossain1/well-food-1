@@ -3,6 +3,7 @@
     border: 1px solid black;
     margin: 10px;
     border-radius: 15px;
+    box-shadow:  5px 5px 5px;
 }
 
 .user-review-container img{
