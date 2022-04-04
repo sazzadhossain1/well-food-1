@@ -1,11 +1,17 @@
 .nav-parent{
-    background-color:coral;
+    /* background-color:coral; */
+    background-image:url('https://i.pinimg.com/originals/5a/6b/44/5a6b44572192aae4139370afc89e7c04.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    padding:10px 0;
+    
 }
 
 .navigation{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
     

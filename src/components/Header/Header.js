@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
+
+
 const Header = () => {
     return (
         <div className='nav-parent' >
@@ -14,6 +16,7 @@ const Header = () => {
             <Link to="Blogs">Blogs</Link>
             <Link to="About">About</Link>
             </nav>
+            
             </div>
         </div>
     );

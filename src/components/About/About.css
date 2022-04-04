@@ -1,0 +1,27 @@
+.about{
+    font-size: 100px;
+    background-color: darkgrey;
+    
+}
+
+.great-food{
+    width: 700px;
+    /* box-shadow: 5px 5px 10px ; */
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    
+    padding: 50px;
+    
+}
+
+
+.contact{
+    width: 700px;
+    
+    margin: auto;
+    margin-top: 100px;
+    
+}

@@ -1,10 +1,22 @@
-.parent-container{
+/* .parent-container{
     display: flex;
     justify-content: space-between;
     margin-top: 200px;
     margin-left: 100px;
     margin-right: 100px;
     align-items: center;
+    height: 300px;
+    
+} */
+
+
+.parent-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    margin-top: 200px;
+    margin-left: 100px;
+    
     height: 300px;
     
 }

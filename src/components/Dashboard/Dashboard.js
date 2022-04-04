@@ -55,6 +55,7 @@ const Dashboard = () => {
 
       <div className="parent-container">
       <div>
+        <h1>MONTH WISH SELL</h1>
         <LineChart width={450} height={350} data={data}>
           <Line dataKey={"sell"}></Line>
           <Line dataKey={"revenue"}></Line>
@@ -67,6 +68,7 @@ const Dashboard = () => {
       </div>
 
       <div>
+        <h1>INVESTMENT VS REVENUE</h1>
         <BarChart width={450} height={350} data={data}>
           <Bar dataKey={"investment"}></Bar>
           <Bar dataKey={"sell"}></Bar>

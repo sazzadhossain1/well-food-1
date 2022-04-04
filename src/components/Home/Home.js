@@ -15,8 +15,8 @@ const Home = () => {
     <div>
       <div className="home-component">
         <div className="details-div">
-          <p className="delivery">Free Home Delivery 24 Hours</p>
-          <h1>THE DELIGHT BURGER </h1>
+          <h1 className="delivery">Free Home Delivery 24 Hours</h1>
+          <h3>THE DELIGHT BURGER </h3>
           <h2>Your best Food</h2>
           <h5>
             Sink your teeth into a delicious restaurant-style, hamburger recipe

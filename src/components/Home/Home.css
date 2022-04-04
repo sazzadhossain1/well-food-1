@@ -16,7 +16,7 @@
 }
 
 .delivery {
-  background-color: red;
+  /* background-color: red; */
   border-radius: 15px;
   height: 30px;
   padding: 5px;
@@ -27,19 +27,22 @@
 
 .customer-reviews {
   margin-top: 100px;
-  width: 800px;
+  padding: 5% 10%;
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
   
 }
 .button {
   margin: 300px;
-  background-color: coral;
+  background-color: black;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+
   padding: 10px;
   border: none;
   color: white;
   border-radius: 10px;
   width: 300px;
-  font-weight: 900;
+  font-weight: 600;
 }
