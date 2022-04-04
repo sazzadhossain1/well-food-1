@@ -1,10 +1,15 @@
 import React from 'react';
+import './SingleReview.css';
 
 const SingleReview = (props) => {
     const {name, review,rating, image} = props.user;
     return (
-        <div>
-            <p>Name:{name}</p>
+        <div className='user-review-container'>
+            <img src={image} alt="" />
+            <h2>Name:{name}</h2>
+            <h4>Review: {review}</h4>
+            <p>Rating: {rating}</p>
+
             
         </div>
     );

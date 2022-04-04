@@ -1,0 +1,14 @@
+.user-review-container{
+    margin-bottom: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.user-review-container img{
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
