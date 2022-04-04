@@ -29,6 +29,7 @@ const Home = () => {
       <div className="customer-reviews">
           <h1>Customer Reviews</h1>
       </div>
+      <button className="button">See All Reviews</button>
     </div>
   );
 };

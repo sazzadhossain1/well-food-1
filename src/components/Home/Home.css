@@ -30,3 +30,13 @@
 .customer-reviews{
     margin-top: 100px;
 }
+.button{
+    margin: 300px;
+    background-color: coral;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    font-weight: 900;
+}
