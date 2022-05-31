@@ -8,7 +8,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import './Dashboard.css'
+import "./Dashboard.css";
 
 const Dashboard = () => {
   const data = [
@@ -54,30 +54,30 @@ const Dashboard = () => {
       <h1>This is Dashboard</h1>
 
       <div className="parent-container">
-      <div>
-        <h1>MONTH WISH SELL</h1>
-        <LineChart width={450} height={350} data={data}>
-          <Line dataKey={"sell"}></Line>
-          <Line dataKey={"revenue"}></Line>
-          <Line dataKey={"investment"}></Line>
+        <div>
+          <h1>MONTH WISH SELL</h1>
+          <LineChart width={450} height={350} data={data}>
+            <Line dataKey={"sell"}></Line>
+            <Line dataKey={"revenue"}></Line>
+            <Line dataKey={"investment"}></Line>
 
-          <XAxis dataKey={"month"}></XAxis>
-          <YAxis></YAxis>
-          <Tooltip></Tooltip>
-        </LineChart>
-      </div>
+            <XAxis dataKey={"month"}></XAxis>
+            <YAxis></YAxis>
+            <Tooltip></Tooltip>
+          </LineChart>
+        </div>
 
-      <div>
-        <h1>INVESTMENT VS REVENUE</h1>
-        <BarChart width={450} height={350} data={data}>
-          <Bar dataKey={"investment"}></Bar>
-          <Bar dataKey={"sell"}></Bar>
-          <Bar dataKey={"revenue"}></Bar>
-          <XAxis dataKey={"month"}></XAxis>
-          <YAxis></YAxis>
-          <Tooltip></Tooltip>
-        </BarChart>
-      </div>
+        <div>
+          <h1>INVESTMENT VS REVENUE</h1>
+          <BarChart width={450} height={350} data={data}>
+            <Bar dataKey={"investment"}></Bar>
+            <Bar dataKey={"sell"}></Bar>
+            <Bar dataKey={"revenue"}></Bar>
+            <XAxis dataKey={"month"}></XAxis>
+            <YAxis></YAxis>
+            <Tooltip></Tooltip>
+          </BarChart>
+        </div>
       </div>
     </div>
   );
